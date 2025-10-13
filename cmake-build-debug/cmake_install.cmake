@@ -1,4 +1,4 @@
-# Install script for directory: X:/personal_projects
+# Install script for directory: X:/personal_projects2/personal_projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "X:/personal_projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "X:/personal_projects2/personal_projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

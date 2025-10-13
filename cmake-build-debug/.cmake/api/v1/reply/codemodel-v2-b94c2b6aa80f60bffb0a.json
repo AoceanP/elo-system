@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "elo-system::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-elo-system-Debug-f755ce540c1ba4ff4c81.json",
+					"jsonFile" : "target-elo-system-Debug-1f79e7a435730c15668b.json",
 					"name" : "elo-system",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "X:/personal_projects/cmake-build-debug",
-		"source" : "X:/personal_projects"
+		"build" : "X:/personal_projects2/personal_projects/cmake-build-debug",
+		"source" : "X:/personal_projects2/personal_projects"
 	},
 	"version" : 
 	{

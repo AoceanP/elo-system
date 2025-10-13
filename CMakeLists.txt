@@ -5,6 +5,6 @@
    set(CMAKE_CXX_STANDARD 23)
 
    add_executable(elo-system
-           main.cpp
+           src/main.cpp
            # Add other .cpp files here if you have them
    )
