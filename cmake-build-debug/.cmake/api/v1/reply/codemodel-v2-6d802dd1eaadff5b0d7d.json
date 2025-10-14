@@ -15,7 +15,10 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -30,7 +33,10 @@
 					"name" : "elo-system",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -39,8 +45,29 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "elo-system::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-elo-system-Debug-1f79e7a435730c15668b.json",
+					"jsonFile" : "target-elo-system-Debug-e7d9173cab0fa25e1fa0.json",
 					"name" : "elo-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "match_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-match_test-Debug-8be62dd9734c235bc529.json",
+					"name" : "match_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "player_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-player_test-Debug-42d1b7c52333ef88250c.json",
+					"name" : "player_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ranking_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ranking_test-Debug-b04dd3624ec40eb22878.json",
+					"name" : "ranking_test",
 					"projectIndex" : 0
 				}
 			]

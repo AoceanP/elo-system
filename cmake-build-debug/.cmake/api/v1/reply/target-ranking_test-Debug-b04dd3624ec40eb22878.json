@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "elo-system.exe"
+			"path" : "ranking_test.exe"
 		},
 		{
-			"path" : "elo-system.pdb"
+			"path" : "ranking_test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,14 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3
 			]
 		}
 	],
-	"id" : "elo-system::@6890427a1f51a3e7e1df",
+	"id" : "ranking_test::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "elo-system",
-	"nameOnDisk" : "elo-system.exe",
+	"name" : "ranking_test",
+	"nameOnDisk" : "ranking_test.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +92,10 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3
 			]
 		}
 	],
@@ -98,7 +104,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/main.cpp",
+			"path" : "tests/RankingSystemTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/RankingSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Match.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Player.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

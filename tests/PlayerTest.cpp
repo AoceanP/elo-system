@@ -14,7 +14,6 @@
  */
 
 #include "../src/Player.h"
-#include "../src/Player.cpp"
 #include <iostream>
 #include <cassert>
 
@@ -32,7 +31,8 @@
  * When we create a Player without specifying a rating,
  * it should default to 1200.0
  */
-void testPlayerCreationDefault() {
+void testPlayerCreationDefault()
+{
     std::cout << "Test 1: Player creation with default rating..." << std::endl;
 
     Player alice{"Alice"};
@@ -77,7 +77,8 @@ void testPlayerCreationCustom() {
  *
  * This is the main test for our validation feature
  */
-void testNegativeRatingClamped() {
+void testNegativeRatingClamped()
+{
     std::cout << "Test 3: Negative rating gets clamped to 0..." << std::endl;
 
     Player charlie{"Charlie", -100.0};
@@ -99,7 +100,8 @@ void testNegativeRatingClamped() {
  * - Games played should increase by 1
  * - Losses and draws should stay the same
  */
-void testRecordWin() {
+void testRecordWin()
+{
     std::cout << "Test 4: Recording a win..." << std::endl;
 
     Player david{"David"};
@@ -130,7 +132,8 @@ void testRecordWin() {
  * - Games played should increase by 1
  * - Wins and draws should stay the same
  */
-void testRecordLoss() {
+void testRecordLoss()
+{
     std::cout << "Test 5: Recording a loss..." << std::endl;
 
     Player eve{"Eve"};
@@ -161,7 +164,8 @@ void testRecordLoss() {
  * - Games played should increase by 1
  * - Wins and losses should stay the same
  */
-void testRecordDraw() {
+void testRecordDraw()
+{
     std::cout << "Test 6: Recording a draw..." << std::endl;
 
     Player frank{"Frank"};
@@ -192,7 +196,8 @@ void testRecordDraw() {
  *
  * Example: 3 wins, 2 losses, 1 draw = 6 games total
  */
-void testMixedResults() {
+void testMixedResults()
+{
     std::cout << "Test 7: Mixed game results..." << std::endl;
 
     Player grace{"Grace"};
@@ -218,7 +223,8 @@ void testMixedResults() {
  * The Match class will update a player's rating after each game
  * Test that updateRating correctly changes the rating
  */
-void testUpdateRating() {
+void testUpdateRating()
+{
     std::cout << "Test 8: Updating rating..." << std::endl;
 
     Player henry{"Henry", 1200.0};
@@ -249,7 +255,8 @@ void testUpdateRating() {
  * Test that a player can have a rating of exactly 0
  * and can climb back up with wins
  */
-void testRatingAtZero() {
+void testRatingAtZero()
+{
     std::cout << "Test 9: Player at zero rating can win and climb..." << std::endl;
 
     /**
@@ -281,7 +288,8 @@ void testRatingAtZero() {
  * Ratings can have decimal places (e.g., 1245.5)
  * Test that we preserve decimal precision
  */
-void testDecimalRatingPrecision() {
+void testDecimalRatingPrecision()
+{
     std::cout << "Test 10: Decimal rating precision..." << std::endl;
 
     Player jack{"Jack", 1234.5};
@@ -302,12 +310,14 @@ void testDecimalRatingPrecision() {
  * If any test fails, the program stops and tells you which one
  * If all pass, you'll see "All tests passed!"
  */
-int main() {
+int main()
+{
     std::cout << std::endl;
     std::cout << "Running Player Class Tests..." << std::endl;
     std::cout << std::endl;
 
-    try {
+    try
+    {
         testPlayerCreationDefault();
         testPlayerCreationCustom();
         testNegativeRatingClamped();
@@ -327,7 +337,8 @@ int main() {
 
         return 0;
     }
-    catch (...) {
+    catch (...)
+    {
         std::cout << std::endl;
         std::cout << "TEST FAILED!" << std::endl;
         return 1;

@@ -55,6 +55,24 @@ build CMakeFiles/elo-system.dir/src/main.cpp.obj: CXX_COMPILER__elo-system_unsca
   OBJECT_DIR = CMakeFiles\elo-system.dir
   OBJECT_FILE_DIR = CMakeFiles\elo-system.dir\src
 
+build CMakeFiles/elo-system.dir/src/Player.cpp.obj: CXX_COMPILER__elo-system_unscanned_Debug X$:/personal_projects2/personal_projects/src/Player.cpp || cmake_object_order_depends_target_elo-system
+  DEP_FILE = CMakeFiles\elo-system.dir\src\Player.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\elo-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\elo-system.dir\src
+
+build CMakeFiles/elo-system.dir/src/Match.cpp.obj: CXX_COMPILER__elo-system_unscanned_Debug X$:/personal_projects2/personal_projects/src/Match.cpp || cmake_object_order_depends_target_elo-system
+  DEP_FILE = CMakeFiles\elo-system.dir\src\Match.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\elo-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\elo-system.dir\src
+
+build CMakeFiles/elo-system.dir/src/RankingSystem.cpp.obj: CXX_COMPILER__elo-system_unscanned_Debug X$:/personal_projects2/personal_projects/src/RankingSystem.cpp || cmake_object_order_depends_target_elo-system
+  DEP_FILE = CMakeFiles\elo-system.dir\src\RankingSystem.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\elo-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\elo-system.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target elo-system
@@ -63,7 +81,7 @@ build CMakeFiles/elo-system.dir/src/main.cpp.obj: CXX_COMPILER__elo-system_unsca
 #############################################
 # Link the executable elo-system.exe
 
-build elo-system.exe: CXX_EXECUTABLE_LINKER__elo-system_Debug CMakeFiles/elo-system.dir/src/main.cpp.obj
+build elo-system.exe: CXX_EXECUTABLE_LINKER__elo-system_Debug CMakeFiles/elo-system.dir/src/main.cpp.obj CMakeFiles/elo-system.dir/src/Player.cpp.obj CMakeFiles/elo-system.dir/src/Match.cpp.obj CMakeFiles/elo-system.dir/src/RankingSystem.cpp.obj
   FLAGS = -Wall -Wextra -pedantic -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\elo-system.dir
@@ -72,6 +90,141 @@ build elo-system.exe: CXX_EXECUTABLE_LINKER__elo-system_Debug CMakeFiles/elo-sys
   TARGET_FILE = elo-system.exe
   TARGET_IMPLIB = libelo-system.dll.a
   TARGET_PDB = elo-system.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target player_test
+
+
+#############################################
+# Order-only phony target for player_test
+
+build cmake_object_order_depends_target_player_test: phony || .
+
+build CMakeFiles/player_test.dir/tests/PlayerTest.cpp.obj: CXX_COMPILER__player_test_unscanned_Debug X$:/personal_projects2/personal_projects/tests/PlayerTest.cpp || cmake_object_order_depends_target_player_test
+  DEP_FILE = CMakeFiles\player_test.dir\tests\PlayerTest.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\player_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\player_test.dir\tests
+
+build CMakeFiles/player_test.dir/src/Player.cpp.obj: CXX_COMPILER__player_test_unscanned_Debug X$:/personal_projects2/personal_projects/src/Player.cpp || cmake_object_order_depends_target_player_test
+  DEP_FILE = CMakeFiles\player_test.dir\src\Player.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\player_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\player_test.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target player_test
+
+
+#############################################
+# Link the executable player_test.exe
+
+build player_test.exe: CXX_EXECUTABLE_LINKER__player_test_Debug CMakeFiles/player_test.dir/tests/PlayerTest.cpp.obj CMakeFiles/player_test.dir/src/Player.cpp.obj
+  FLAGS = -Wall -Wextra -pedantic -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\player_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = player_test.exe
+  TARGET_IMPLIB = libplayer_test.dll.a
+  TARGET_PDB = player_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target match_test
+
+
+#############################################
+# Order-only phony target for match_test
+
+build cmake_object_order_depends_target_match_test: phony || .
+
+build CMakeFiles/match_test.dir/tests/MatchTest.cpp.obj: CXX_COMPILER__match_test_unscanned_Debug X$:/personal_projects2/personal_projects/tests/MatchTest.cpp || cmake_object_order_depends_target_match_test
+  DEP_FILE = CMakeFiles\match_test.dir\tests\MatchTest.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\match_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\match_test.dir\tests
+
+build CMakeFiles/match_test.dir/src/Match.cpp.obj: CXX_COMPILER__match_test_unscanned_Debug X$:/personal_projects2/personal_projects/src/Match.cpp || cmake_object_order_depends_target_match_test
+  DEP_FILE = CMakeFiles\match_test.dir\src\Match.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\match_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\match_test.dir\src
+
+build CMakeFiles/match_test.dir/src/Player.cpp.obj: CXX_COMPILER__match_test_unscanned_Debug X$:/personal_projects2/personal_projects/src/Player.cpp || cmake_object_order_depends_target_match_test
+  DEP_FILE = CMakeFiles\match_test.dir\src\Player.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\match_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\match_test.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target match_test
+
+
+#############################################
+# Link the executable match_test.exe
+
+build match_test.exe: CXX_EXECUTABLE_LINKER__match_test_Debug CMakeFiles/match_test.dir/tests/MatchTest.cpp.obj CMakeFiles/match_test.dir/src/Match.cpp.obj CMakeFiles/match_test.dir/src/Player.cpp.obj
+  FLAGS = -Wall -Wextra -pedantic -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\match_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = match_test.exe
+  TARGET_IMPLIB = libmatch_test.dll.a
+  TARGET_PDB = match_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ranking_test
+
+
+#############################################
+# Order-only phony target for ranking_test
+
+build cmake_object_order_depends_target_ranking_test: phony || .
+
+build CMakeFiles/ranking_test.dir/tests/RankingSystemTest.cpp.obj: CXX_COMPILER__ranking_test_unscanned_Debug X$:/personal_projects2/personal_projects/tests/RankingSystemTest.cpp || cmake_object_order_depends_target_ranking_test
+  DEP_FILE = CMakeFiles\ranking_test.dir\tests\RankingSystemTest.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ranking_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\ranking_test.dir\tests
+
+build CMakeFiles/ranking_test.dir/src/RankingSystem.cpp.obj: CXX_COMPILER__ranking_test_unscanned_Debug X$:/personal_projects2/personal_projects/src/RankingSystem.cpp || cmake_object_order_depends_target_ranking_test
+  DEP_FILE = CMakeFiles\ranking_test.dir\src\RankingSystem.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ranking_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\ranking_test.dir\src
+
+build CMakeFiles/ranking_test.dir/src/Match.cpp.obj: CXX_COMPILER__ranking_test_unscanned_Debug X$:/personal_projects2/personal_projects/src/Match.cpp || cmake_object_order_depends_target_ranking_test
+  DEP_FILE = CMakeFiles\ranking_test.dir\src\Match.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ranking_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\ranking_test.dir\src
+
+build CMakeFiles/ranking_test.dir/src/Player.cpp.obj: CXX_COMPILER__ranking_test_unscanned_Debug X$:/personal_projects2/personal_projects/src/Player.cpp || cmake_object_order_depends_target_ranking_test
+  DEP_FILE = CMakeFiles\ranking_test.dir\src\Player.cpp.obj.d
+  FLAGS = -Wall -Wextra -pedantic -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ranking_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\ranking_test.dir\src
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ranking_test
+
+
+#############################################
+# Link the executable ranking_test.exe
+
+build ranking_test.exe: CXX_EXECUTABLE_LINKER__ranking_test_Debug CMakeFiles/ranking_test.dir/tests/RankingSystemTest.cpp.obj CMakeFiles/ranking_test.dir/src/RankingSystem.cpp.obj CMakeFiles/ranking_test.dir/src/Match.cpp.obj CMakeFiles/ranking_test.dir/src/Player.cpp.obj
+  FLAGS = -Wall -Wextra -pedantic -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ranking_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ranking_test.exe
+  TARGET_IMPLIB = libranking_test.dll.a
+  TARGET_PDB = ranking_test.exe.dbg
 
 
 #############################################
@@ -101,6 +254,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build elo-system: phony elo-system.exe
 
+build match_test: phony match_test.exe
+
+build player_test: phony player_test.exe
+
+build ranking_test: phony ranking_test.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +268,7 @@ build elo-system: phony elo-system.exe
 #############################################
 # Folder: X:/personal_projects2/personal_projects/cmake-build-debug
 
-build all: phony elo-system.exe
+build all: phony elo-system.exe player_test.exe match_test.exe ranking_test.exe
 
 # =============================================================================
 # Built-in targets

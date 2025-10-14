@@ -1,3 +1,6 @@
 X:/personal_projects2/personal_projects/cmake-build-debug/CMakeFiles/elo-system.dir
+X:/personal_projects2/personal_projects/cmake-build-debug/CMakeFiles/player_test.dir
+X:/personal_projects2/personal_projects/cmake-build-debug/CMakeFiles/match_test.dir
+X:/personal_projects2/personal_projects/cmake-build-debug/CMakeFiles/ranking_test.dir
 X:/personal_projects2/personal_projects/cmake-build-debug/CMakeFiles/edit_cache.dir
 X:/personal_projects2/personal_projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
